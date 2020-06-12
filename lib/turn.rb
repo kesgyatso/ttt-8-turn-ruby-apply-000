@@ -5,7 +5,6 @@ def display_board (board)
   puts " #{board[3]} | #{board[4]} |  #{board[5]}"
   puts "---------"
   puts " #{board[6]} | #{board[7]} |  #{board[8]}"
-
 end
   
 #ask for input + get input + convert input to index
@@ -15,9 +14,7 @@ def input_to_index(user_input)
   return index
 end  
   
-  
-#if index is valid, make the move for index then show the board, otherwise ask for input again until you get a valid input
-
+#if index is valid, make the move for index then show board, otherwise ask for input again until you get a valid input
 def valid_move?(board, index)
   def position_taken?(array, ind)
     if array[ind] == " " || array[ind] == "" || array[ind] == nil

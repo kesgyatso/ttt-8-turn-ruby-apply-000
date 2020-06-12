@@ -1,4 +1,11 @@
-#ask for input
+def display_board (board, position)
+  
+  
+end
+  
+  
+  
+  #ask for input
 #get input
 #convert input to index
 #if index is valid,
